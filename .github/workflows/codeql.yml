@@ -9,8 +9,8 @@ on:
 
 jobs:
   analyze:
-    name: Analyze JavaScript/TypeScript
-    runs-on: macOS15
+    name: Analyze Swift
+    runs-on: macos-15
     permissions:
       security-events: write
       packages: read
